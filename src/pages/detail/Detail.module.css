@@ -1,0 +1,36 @@
+.detail_form {
+  max-width: 960px;
+  margin: 60px auto;
+  padding: 20px;
+}
+
+.detail_form .btn {
+  display: flex;
+  align-items: baseline;
+}
+
+.detail_form .left {
+  float: left;
+}
+.detail_form .right {
+  float: right;
+}
+.detail_form .clear {
+  clear: both;
+}
+
+.detail_form .img {
+  width: 80%;
+}
+
+.detail_form button {
+  background-color: rgb(94, 143, 112);
+  border: 0;
+  border-radius: 8px;
+  color: #fffcf2;
+  padding: 15px 6px;
+  line-height: 0;
+  cursor: pointer;
+  margin-left: 4px;
+  margin-right: 4px;
+}

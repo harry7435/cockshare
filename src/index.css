@@ -1,4 +1,4 @@
-:root {
+/* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -66,4 +66,22 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:400');
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding:400');
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding:400,700');
+
+/* base styles */
+body {
+  font-family: 'Nanum Gothic Coding', sans-serif;
+}
+h1 {
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 40px;
+}
+
+ul {
+  list-style-type: none;
 }

@@ -3,13 +3,22 @@ import { getAuth } from 'firebase/auth'; // 권한 관련
 import { getFirestore, Timestamp } from 'firebase/firestore'; //저장소 관련
 import { getStorage } from 'firebase/storage'; // 이미지 저장
 
+const {
+  VITE_FIREBASE_API_KEY,
+  VITE_FIREBASE_AUTH_DOMAIN,
+  VITE_FIREBASE_PROJECT_ID,
+  VITE_FIREBASE_STORAGE_BUCKET,
+  VITE_FIREBASE_SENDER_ID,
+  VITE_FIREBASE_APP_ID,
+} = import.meta.env;
+
 const firebaseConfig = {
-  apiKey: process.env.REACT_APP_API_KEY,
-  authDomain: process.env.REACT_APP_AUTH_DOMAIN,
-  projectId: process.env.REACT_APP_PROJECT_ID,
-  storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
-  messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
-  appId: process.env.REACT_APP_APP_ID,
+  apiKey: VITE_FIREBASE_API_KEY,
+  authDomain: VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: VITE_FIREBASE_PROJECT_ID,
+  storageBucket: VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: VITE_FIREBASE_SENDER_ID,
+  appId: VITE_FIREBASE_APP_ID,
 };
 
 // Initialize Firebase

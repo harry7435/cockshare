@@ -10,7 +10,6 @@ import Input from './pages/home/oper/Input';
 import Detail from './pages/detail/Detail';
 import Edit from './pages/home/oper/Edit';
 import { useAuthContext } from './hooks/useAuthContext';
-import styled from './App.css';
 
 function App() {
   const { isAuthReady, user } = useAuthContext();

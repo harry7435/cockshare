@@ -1,0 +1,42 @@
+.login_form {
+  max-width: 360px;
+  margin: 60px auto;
+  padding: 20px;
+}
+
+.login_form fieldset {
+  border-radius: 10px;
+}
+
+.login_form legend {
+  font-size: 1.5em;
+  padding: 10px;
+}
+
+.login_form label {
+  display: block;
+  margin: 30px 0;
+}
+
+.login_form input {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 8px 6px;
+  font-size: 1em;
+  color: #777;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.login_form button {
+  margin-top: 40px;
+  float: right;
+  padding: 6px 12px;
+  border-radius: 10px;
+  color: #fffcf2;
+  background-color: rgb(94, 143, 112);
+  border: 1px solid rgb(94, 143, 112);
+  font-weight: bold;
+  cursor: pointer;
+}
