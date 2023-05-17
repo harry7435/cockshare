@@ -2,7 +2,6 @@
 
 import { useState } from 'react';
 import { useLogin } from '../../hooks/useLogin';
-import GoogleLogin from 'react-google-login';
 
 import styles from './Login.module.css';
 import { appAuth, auth } from '../../firebase/config';
