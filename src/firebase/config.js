@@ -27,5 +27,6 @@ const appAuth = getAuth(); // 권한 관련
 const appFireStore = getFirestore(app); //저장소 관련
 const timestamp = Timestamp; // 타임스탬프 관련
 const storage = getStorage(); //이미지관련
+const auth = getAuth(app);
 
-export { appAuth, appFireStore, timestamp, storage };
+export { auth, appAuth, appFireStore, timestamp, storage };
