@@ -1,0 +1,33 @@
+.nav {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px 50px;
+}
+
+.nav .list_nav {
+  color: #fff;
+
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  gap: 16px;
+}
+
+.nav .tit {
+  color: #fff;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav button {
+  margin-left: 20px;
+  padding: 6px 12px;
+  border-radius: 10px;
+  background-color: rgb(94, 143, 112);
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
