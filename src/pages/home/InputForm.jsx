@@ -20,7 +20,7 @@ export default function DiaryForm({ uid, displayName }) {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    addDocument({ uid, displayName, title, text, pic }); // uid:작성한 유저 id
+    addDocument({ uid, displayName, title, text }, pic); // uid:작성한 유저 id
     navigate('/');
   };
 
@@ -75,7 +75,7 @@ export default function DiaryForm({ uid, displayName }) {
             disabled
           />
 
-          <label onClick={handleButtonClick}>사진 업로드</label>
+          <p onClick={handleButtonClick}>사진 업로드</p>
 
           <button onClick={handleSubmit} type="submit">
             저장하기
