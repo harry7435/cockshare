@@ -1,5 +1,3 @@
-# Project Name
-
 ## Cock Share v.0
 
 [Demo app](https://cockshare.vercel.app/)
