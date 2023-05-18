@@ -36,23 +36,23 @@ _자세한 개발 스택은 package.json 참고_
 
 ### Pages
 
-1. `pages/home/Home.jsx`: 메인 페이지
-   ![Home](public\Home.png)  
-   <br>
-2. `pages/login/Login.jsx`: 로그인 페이지
-   ![Home](public\login.png)  
-   <br>
-3. `pages/signup/Signup.jsx`: 회원가입 페이지
-   ![Home](public\signup.png)  
-   <br>
-4. `pages/home/oper/Input.jsx`: 게시물 작성 페이지
-   ![Home](public\input.png)  
-   <br>
-5. `pages/home/oper/Edit.jsx`: 게시물 수정 페이지
-   ![Home](public\edit.png)  
-   <br>
-6. `pages/detail/Detail.jsx`: 게시물 조회 페이지
-   ![Home](public\detail.png)  
+1. `pages/home/Home.jsx`: 메인 페이지  
+   ![Home](https://github.com/harry7435/cockshare/assets/70748442/d6586628-2f7a-4263-b3bc-74d3c19e7640)  
+   <br>  
+2. `pages/login/Login.jsx`: 로그인 페이지  
+   ![login](https://github.com/harry7435/cockshare/assets/70748442/3a5b9fd7-a6ee-4912-a9df-7377730b617b)  
+   <br>  
+3. `pages/signup/Signup.jsx`: 회원가입 페이지  
+   ![signup](https://github.com/harry7435/cockshare/assets/70748442/ba5f1102-846e-497f-97e2-482861e80379)  
+   <br>  
+4. `pages/home/oper/Input.jsx`: 게시물 작성 페이지  
+   ![input](https://github.com/harry7435/cockshare/assets/70748442/9415e059-f761-4ece-837c-40e8f00e81e8)  
+   <br>  
+5. `pages/home/oper/Edit.jsx`: 게시물 수정 페이지  
+   ![edit](https://github.com/harry7435/cockshare/assets/70748442/9f36c85f-698e-41a3-9046-e58745201565)  
+   <br>  
+6. `pages/detail/Detail.jsx`: 게시물 조회 페이지  
+   ![detail](https://github.com/harry7435/cockshare/assets/70748442/e1f8ddbd-eef0-4045-8e43-e1519244cc51)  
    <br>
 
 ## Information
